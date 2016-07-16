@@ -48,3 +48,6 @@ set smartindent
 set encoding=UTF-8
 set fileencoding=UTF-8
 set termencoding=UTF-8
+
+" swp files
+set directory=~/.vim/swp
