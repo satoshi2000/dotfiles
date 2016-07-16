@@ -1,0 +1,3 @@
+['C:\Users\satos\.vimrc']
+{"dein.vim":{lazy:0,path:"C:/Users/satos/dotfiles/dein/repos/github.com/Shougo/dein.vim",repo:"Shougo/dein.vim",rtp:"C:/Users/satos/dotfiles/dein/repos/github.com/Shougo/dein.vim",normalized_name:"dein",type:"git",merged:1,sourced:1,name:"dein.vim"},"lightline.vim":{lazy:0,path:"C:/Users/satos/dotfiles/dein/repos/github.com/itchyny/lightline.vim",repo:"itchyny/lightline.vim",rtp:"C:/Users/satos/dotfiles/dein/repos/github.com/itchyny/lightline.vim",normalized_name:"lightline",type:"git",merged:1,sourced:1,name:"lightline.vim"}}
+{}

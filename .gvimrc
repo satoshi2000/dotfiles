@@ -22,7 +22,6 @@ set columns=200
 set lines=50
 
 " status line
-set statusline=%<%f\ %m%r%h%w%{'['.(&fenc!=''?&fenc:&enc).']['.&ff.']'}%=%l,%c%V%8P
 set laststatus=2
 
 " insert mode ime status
