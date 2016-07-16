@@ -1,28 +1,27 @@
+" line number
 set number
+
+" highlighting current line
 set cursorline
 
-" IME OFF
+" ime off
 "set imdisable
 
-" Backup Off
+" backup off
 set nobackup
 
-" Beep Off
+" beep off
 set visualbell t_vb=
 
-" Font Size
+" font size
 set guifont=MS_Gothic:h9
 set guifontwide=MS_Gothic:h9
 
-" Window Size
+" window size
 set columns=200
 set lines=50
 
-" 不可視文字表示
-"set list
-"set listchars=tab:>-,extends:<,trail:-
-
-" ステータス常時表示
+" status line
 set statusline=%<%f\ %m%r%h%w%{'['.(&fenc!=''?&fenc:&enc).']['.&ff.']'}%=%l,%c%V%8P
 set laststatus=2
 
@@ -30,8 +29,8 @@ set laststatus=2
 inoremap <silent> <Esc> <Esc>
 inoremap <silent> <C-[> <Esc>
 
-" カラースキーム
+" color scheme
 colorscheme desert
 
-" シンタックスハイライト
+" syntax highlighting on
 syntax on

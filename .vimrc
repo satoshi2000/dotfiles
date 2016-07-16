@@ -13,6 +13,3 @@ set smartindent
 set encoding=UTF-8
 set fileencoding=UTF-8
 set termencoding=UTF-8
-
-" Unicodeで行末が変になる問題を解決
-set ambiwidth=double
