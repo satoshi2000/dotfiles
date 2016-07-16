@@ -1,8 +1,13 @@
+" tab
+set shiftwidth=4
 set tabstop=4
-set autoindent
 " set expandtab
 
-set shiftwidth=4
+" input
+set backspace=indent,eol,start
+set formatoptions+=mM
+set autoindent
+set smartindent
 
 " encode
 set encoding=UTF-8

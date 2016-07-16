@@ -1,6 +1,14 @@
 set number
-
 set cursorline
+
+" IME OFF
+"set imdisable
+
+" Backup Off
+set nobackup
+
+" Beep Off
+set visualbell t_vb=
 
 " Font Size
 set guifont=MS_Gothic:h9
@@ -18,7 +26,10 @@ set lines=50
 set statusline=%<%f\ %m%r%h%w%{'['.(&fenc!=''?&fenc:&enc).']['.&ff.']'}%=%l,%c%V%8P
 set laststatus=2
 
-syntax on
+" insert mode ime status
+inoremap <silent> <Esc> <Esc>
+inoremap <silent> <C-[> <Esc>
+
 " カラースキーム
 colorscheme desert
 
