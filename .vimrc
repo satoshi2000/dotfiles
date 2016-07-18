@@ -48,5 +48,7 @@ set smartindent
 set fileencoding=UTF-8
 set termencoding=UTF-8
 
+" disable undo file
+set noundofile
 " swp files
 set directory=~/.vim/swp
